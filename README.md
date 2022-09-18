@@ -1,24 +1,23 @@
-# README
+# First_API
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+This is a tutorial for beginners to learn how to create API with Rails.
 
-Things you may want to cover:
+### Cloning the project
 
-* Ruby version
+git clone https://github.com/kosher9/first_api <Your-Build-Directory>
+``` 
+- cd Recipe-app
+- rails s
+```
+## Built with
+- Ruby 3.1.2 on Rails 7.0.3.1
+- PostgreSQL
 
-* System dependencies
+## How to run this project
+- Create the database
+``rake db:create``
+- Create database Migration
+``rails db:migrate``
+- Run the server
+``rails s``
 
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
